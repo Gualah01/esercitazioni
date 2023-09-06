@@ -38,10 +38,10 @@ public class TestRunner {
       print(p);
       for (int i = 0; i < termsQ; i++) q = q.add(new Poly(s.nextInt(), s.nextInt()));
       print(q);
-      print(p.minus());
+      //print(p.minus());
       print(p.add(q));
-      print(p.sub(q));
-      print(p.mul(q));
+      //print(p.sub(q));
+      //print(p.mul(q));
     }
   }
 }
